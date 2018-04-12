@@ -2,6 +2,10 @@
 
 ## Main (unreleased)
 
+## quikly-v262 (2023-11/28)
+
+- Set custom WEB_CONCURRENCY default value to 3 for 2X dynos
+
 ## v262 (2023/11/08)
 
 - Warn when relying on default Node.js or Yarn versions (https://github.com/heroku/heroku-buildpack-ruby/pull/1401)
