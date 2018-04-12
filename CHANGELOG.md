@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## quikly-v278 (2024-08/20)
+
+- Set custom WEB_CONCURRENCY default value to 3 for 2X dynos
 
 ## [v278] - 2024-08-05
 
