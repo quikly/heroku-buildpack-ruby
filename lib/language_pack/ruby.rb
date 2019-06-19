@@ -273,7 +273,7 @@ case $(ulimit -u) in
   ;;
 32768)
   export HEROKU_RAM_LIMIT_MB=${HEROKU_RAM_LIMIT_MB:-6144}
-  export WEB_CONCURRENCY=${WEB_CONCURRENCY:-16}
+  export WEB_CONCURRENCY=16
   ;;
 *)
   ;;
