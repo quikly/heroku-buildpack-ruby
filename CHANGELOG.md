@@ -4,6 +4,10 @@
 
 - Fix bug where an invalid DATABASE_URL is set when the adapter is not known (https://github.com/heroku/heroku-buildpack-ruby/pull/1715).
 
+## quikly-v347
+
+- Set custom WEB_CONCURRENCY default value to 2 for 2X dynos (ulimit -u 512)
+
 ## [v347] - 2026-02-02
 
 - JRuby 10.0.3.0 is now available

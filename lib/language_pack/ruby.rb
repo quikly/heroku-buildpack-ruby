@@ -242,7 +242,7 @@ class LanguagePack::Ruby < LanguagePack::Base
         ;;
       512)
         export HEROKU_RAM_LIMIT_MB=${HEROKU_RAM_LIMIT_MB:-1024}
-        export WEB_CONCURRENCY=${WEB_CONCURRENCY:-4}
+        export WEB_CONCURRENCY=${WEB_CONCURRENCY:-2}
         export WEB_CONCURRENCY_SET_BY=heroku/ruby
         ;;
       16384)
