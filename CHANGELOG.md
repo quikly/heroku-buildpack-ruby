@@ -1,5 +1,9 @@
 # Changelog
 
+## quikly-v361
+
+- Set custom WEB_CONCURRENCY default value to 2 for 2X dynos (ulimit -u 512)
+
 ## [Unreleased]
 
 
